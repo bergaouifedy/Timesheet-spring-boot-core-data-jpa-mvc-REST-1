@@ -18,6 +18,8 @@ import tn.esprit.spring.utils.BaseJUnit49TestCase;
 
 public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 	private static final Logger LOG = LogManager.getLogger(EmployeServiceImplTest.class);
+	
+	Employe e = new Employe();
 
 	@Autowired
 	IEmployeService iempServ;
@@ -46,21 +48,13 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 
 	@Test
 	public void tests() {
-		//testAjouterEmploye();
+	
 		//testAjouterContrat();
 		//testAffecterContratAEmploye();
        // testDeleteContratByRef();
 	}
 	
-	public void testAjouterEmploye(){
-		this.employe.setPrenom("Fedi");
-		this.employe.setNom("bergaoui");
-		this.employe.setEmail("fedi.bergaoui@esprit.tn");
-		this.employe.setActif(true);
-		this.employe.setRole(Role.INGENIEUR);
-		this.employe.setId(iempServ.ajouterEmploye(employe));
-		Assert.assertTrue(employe.getId()>0);
-	}
+
 	
 	
 		public void testAjouterContrat() {
@@ -73,7 +67,16 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 		LOG.info("End Method testAjouterContrat");
 
 	}
+		public void testAjouterEmploye () {
 
+			e.setPrenom("xxx");
+			e.setNom("dihek");
+			e.setEmail("dihek.missaoui@gmail.com");
+			e.setActif(true);
+			Assert.assertNotNull("Name mustn't be null", e.getNom());
+			
+			iempServ.ajouterEmploye( e);
+		}
 	public void testAffecterContratAEmploye() {
 
 		LOG.info("Start Method affecterContratAEmploye");
@@ -100,5 +103,4 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 		LOG.info("End deleteContratByRef");
 
 	}
-
 }
