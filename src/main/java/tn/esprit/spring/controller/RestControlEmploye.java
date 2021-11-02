@@ -27,11 +27,14 @@ public class RestControlEmploye {
 	
 	@Autowired
 	IEmployeService iemployeservice;
+	
+
 
 
 	
+	
 	// http://localhost:8081/SpringMVC/servlet/ajouterEmployer
-	//{"id":1,"nom":"kallel", "prenom":"khaled", "email":"Khaled.kallel@ssiiconsulting.tn", "isActif":true, "role":"INGENIEUR"}
+	
 	
 	@PostMapping("/ajouterEmployer")
 	@ResponseBody
@@ -41,6 +44,33 @@ public class RestControlEmploye {
 		return employe;
 	}
 	
+	// Modifier email : http://localhost:8081/SpringMVC/servlet/modifyEmail/1/newemail
+	@PutMapping(value = "/modifyEmail/{id}/{newemail}") 
+	@ResponseBody
+	public void mettreAjourEmailByEmployeId(@PathVariable("newemail") String email, @PathVariable("id") int employeId) {
+		iemployeservice.mettreAjourEmailByEmployeId(email, employeId);
+		
+	}
+
+	
+	
+	
+   
+   // URL : http://localhost:8081/SpringMVC/servlet/getEmployePrenomById/2
+   @GetMapping(value = "getEmployePrenomById/{idemp}")
+   @ResponseBody
+   public String getEmployePrenomById(@PathVariable("idemp")int employeId) {
+		return iemployeservice.getEmployePrenomById(employeId);
+	}
+
+    // URL : http://localhost:8081/SpringMVC/servlet/deleteEmployeById/1
+    @DeleteMapping("/deleteEmployeById/{idemp}") 
+	@ResponseBody 
+	public void deleteEmployeById(@PathVariable("idemp")int employeId) {
+		iemployeservice.deleteEmployeById(employeId);
+		
+	}
+    
 	
 	// http://localhost:8081/SpringMVC/servlet/ajouterContrat
 	//{"reference":6,"dateDebut":"2020-03-01","salaire":2000,"typeContrat":"CDD"}
