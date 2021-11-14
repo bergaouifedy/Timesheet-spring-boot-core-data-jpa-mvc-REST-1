@@ -3,7 +3,6 @@ package tn.esprit.spring.entities;
 import java.io.Serializable;
 import java.util.Date;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -27,23 +26,33 @@ public class Contrat implements Serializable {
 	
 	private String typeContrat;
 	
-	private float salaire;
 	
-	@OneToOne(cascade=CascadeType.ALL)
+	private float telephone;
+	
+	public float getTelephone() {
+		return telephone;
+	}
+
+	public void setTelephone(float telephone) {
+		this.telephone = telephone;
+	}
+    //Association Avec la classe employé
+	@OneToOne
 	private Employe employe;
 
+	private float salaire;
+	   //constructeur par défaut
 	public Contrat() {
 		super();
 	}
-	
-	public Contrat(Date dateDebut, String typeContrat, float salaire , int reference) {
+	 //constructeur paramétré
+	public Contrat(Date dateDebut, String typeContrat, float salaire) {
 		this.dateDebut = dateDebut;
 		this.typeContrat = typeContrat;
 		this.salaire = salaire;
-		this.reference=reference ;
 	}
 
-
+	 //getters and setters
 	public Date getDateDebut() {
 		return dateDebut;
 	}
@@ -83,6 +92,5 @@ public class Contrat implements Serializable {
 	public void setEmploye(Employe employe) {
 		this.employe = employe;
 	}
-	
 	
 }
