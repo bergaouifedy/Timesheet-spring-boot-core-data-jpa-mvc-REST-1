@@ -129,9 +129,6 @@ public class EmployeServiceImpl implements IEmployeService {
 				dep.getEmployes().remove(employe);
 			}
 		}
-		
-		
-
 		//Desaffecter l'employe de tous les departements
 		//c'est le bout master qui permet de mettre a jour
 		//la table d'association
@@ -147,7 +144,7 @@ public class EmployeServiceImpl implements IEmployeService {
 	}
 	}
 
-	public int ajouterContrat(Contrat contrat) {
+	/*public int ajouterContrat(Contrat contrat) {
 		
 		try{
 			l.info("Ajout du contrat");
@@ -162,7 +159,7 @@ public class EmployeServiceImpl implements IEmployeService {
 		}
 		return contrat.getReference();
 	}
-	
+	*/
 	
 
 	public void affecterContratAEmploye(int contratId, int employeId) {
@@ -199,7 +196,7 @@ public class EmployeServiceImpl implements IEmployeService {
 
 
 	
-	public void deleteContratById(int contratId) {
+	/*public void deleteContratById(int contratId) {
 		
 		Contrat contrat = new Contrat();
 		try{
@@ -239,7 +236,7 @@ public class EmployeServiceImpl implements IEmployeService {
 		}catch (Exception e) {
 			l.error("Erreur dans la suppression de tous les contrats : " +e);
 		}
-	}
+	}*/
 	
 	
 }

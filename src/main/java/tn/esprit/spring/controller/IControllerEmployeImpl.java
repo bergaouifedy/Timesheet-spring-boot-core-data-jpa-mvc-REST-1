@@ -57,25 +57,7 @@ public class IControllerEmployeImpl  {
 	}
 	
 	
-	public int ajouterContrat(Contrat contrat) {
-		iemployeservice.ajouterContrat(contrat);
-		return contrat.getReference();
-	}
-	
-	public void affecterContratAEmploye(int contratId, int employeId)
-	{
-		iemployeservice.affecterContratAEmploye(contratId, employeId);
-	}
 
-		public void deleteContratById(int contratId) {
-		iemployeservice.deleteContratById(contratId);
-	}
-
-
-	public void deleteAllContratJPQL() {
-		iemployeservice.deleteAllContratJPQL();
-		
-	}
 
 	
 }
