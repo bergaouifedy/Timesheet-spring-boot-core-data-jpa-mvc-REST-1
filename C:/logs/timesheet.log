@@ -1,0 +1,104 @@
+2021-11-15 17:20:53 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:20:53 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:20:53 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:20:53 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:20:53 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:20:53 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:20:53 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:20:53 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:20:53 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:20:53 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:20:53 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:20:53 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:20:53 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:26:34 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:26:34 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:26:34 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:26:34 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:26:34 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:26:34 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:26:34 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:26:34 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:26:34 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:26:34 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:26:34 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:26:34 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:26:34 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:30:19 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:30:19 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:30:19 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:30:19 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:30:19 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:30:19 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:30:19 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:30:19 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:30:19 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:30:19 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:30:19 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:30:19 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:30:19 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:32:54 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:32:54 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:32:54 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:32:54 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:32:54 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:32:54 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:32:54 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:32:54 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:32:54 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:32:54 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:32:54 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:32:54 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:32:54 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:34:25 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:34:25 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:34:25 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:34:25 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:34:25 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:34:25 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:34:25 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:34:25 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:34:25 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:34:25 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:34:25 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:34:25 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:34:25 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:42:24 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:42:24 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:42:24 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:42:24 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:42:24 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:42:24 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:42:24 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:42:24 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:42:24 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:42:24 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:42:24 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:42:24 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:42:24 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 17:49:32 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 17:49:32 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 17:49:32 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 17:49:32 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 17:49:32 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 17:49:32 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 17:49:32 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 17:49:32 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 17:49:32 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 17:49:32 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 17:49:32 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 17:49:32 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 17:49:32 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
+2021-11-15 20:30:26 INFO  EmployeServiceImpl:120 - suppression d'un employe 
+2021-11-15 20:30:26 DEBUG EmployeServiceImpl:121 - selection du emoloye a supprimé
+2021-11-15 20:30:26 ERROR EmployeServiceImpl:146 - Erreur dans l'affectation du employe : java.lang.NullPointerException
+2021-11-15 20:30:26 INFO  EmployeServiceImpl:39 - ajouter employer 
+2021-11-15 20:30:26 DEBUG EmployeServiceImpl:40 - je vais ajouter un employé
+2021-11-15 20:30:26 ERROR EmployeServiceImpl:48 - Erreur : java.lang.NullPointerException
+2021-11-15 20:30:26 INFO  EmployeServiceImpl:87 - affichage d'une employe par id : 
+2021-11-15 20:30:26 DEBUG EmployeServiceImpl:88 - entrain d'afficher employe : 
+2021-11-15 20:30:26 ERROR EmployeServiceImpl:101 - Erreur dans l'affichage de employe: java.lang.NullPointerException
+2021-11-15 20:30:26 INFO  EmployeServiceImpl:103 - Methode affichage
+2021-11-15 20:30:26 INFO  EmployeServiceImpl:58 - employe existe
+2021-11-15 20:30:26 DEBUG EmployeServiceImpl:59 - mis a jour mail
+2021-11-15 20:30:26 ERROR EmployeServiceImpl:73 - Erreur avec la  mis a jour   email java.lang.NullPointerException
