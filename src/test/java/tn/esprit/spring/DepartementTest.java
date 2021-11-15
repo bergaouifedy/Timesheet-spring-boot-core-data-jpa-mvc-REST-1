@@ -62,6 +62,8 @@ public class DepartementTest extends BaseJUnit49TestCase {
 		LOG.info("--------------------- End Method getAllDepartementsNamesByEntreprise ---------------------------");
 	}
 
+//haha
+
 	@Test
 	public void affecterDepartementAEntrepriseTest() {
 		LOG.info("------------------- Start Method affecter Departement An Entreprise ---------------------------");
