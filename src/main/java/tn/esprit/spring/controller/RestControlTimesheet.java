@@ -37,12 +37,7 @@ public class RestControlTimesheet {
 		return mission.getId();
 	}
 
-	// http://localhost:8081/SpringMVC/servlet/affecterMissionADepartement/4/4
-	@PutMapping(value = "/affecterMissionADepartement/{idmission}/{iddept}") 
-	public void affecterMissionADepartement(@PathVariable("idmission") int missionId, @PathVariable("iddept") int depId) {
-		itimesheetservice.affecterMissionADepartement(missionId, depId);
-
-	}
+	
 	
 	// http://localhost:8081/SpringMVC/servlet/ajouterTimesheet
     //{"missionId":1,"employeId":2,"dateDebut":"2020-03-01","dateFin":"2021-03-01"}

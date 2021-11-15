@@ -46,22 +46,7 @@ public void testajouterMission(){
 	
 		
 }
-@Test
-public void testaffecterMissionADepartement(){
-	
-	
 
-mission.setName("deplacement");
-	Departement departement = new Departement("info");
-	 mission.setDepartement(departement);
-	assertNotNull("departement mustn't be null", mission.getDepartement());	
-}
-
-/*@Test
-public void TestgetAllEmployeByMission(){
-	
-	
-}*/
 
 
 }
