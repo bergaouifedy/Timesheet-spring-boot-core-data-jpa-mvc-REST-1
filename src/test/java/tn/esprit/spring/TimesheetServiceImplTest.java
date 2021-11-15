@@ -22,7 +22,7 @@ import tn.esprit.spring.services.ITimesheetService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = TimesheetSpringBootCoreDataJpaMvcRest1Application.class)
-public class MissionTests {
+public class TimesheetServiceImplTest {
 	@Autowired
 	ITimesheetService tServ;
 
@@ -46,7 +46,22 @@ public void testajouterMission(){
 	
 		
 }
+@Test
+public void testaffecterMissionADepartement(){
+	
+	
 
+mission.setName("deplacement");
+	Departement departement = new Departement("info");
+	 mission.setDepartement(departement);
+	assertNotNull("departement mustn't be null", mission.getDepartement());	
+}
+
+/*@Test
+public void TestgetAllEmployeByMission(){
+	
+	
+}*/
 
 
 }

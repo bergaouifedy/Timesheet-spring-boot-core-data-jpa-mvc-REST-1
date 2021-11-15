@@ -27,7 +27,10 @@ public class IControllerTimesheetImpl {
 		return mission.getId();
 	}
 
-	
+	public void affecterMissionADepartement(int missionId, int depId) {
+		itimesheetservice.affecterMissionADepartement(missionId, depId);
+
+	}
 	public void ajouterTimesheet(int missionId, int employeId, Date dateDebut, Date dateFin) {
 		itimesheetservice.ajouterTimesheet(missionId, employeId, dateDebut, dateFin);
 
