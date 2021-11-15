@@ -38,7 +38,7 @@ Mission mission = new Mission();
 Departement departement = new Departement();
 
 @Test
-public void ajouterMissionTest(){
+public void testajouterMission(){
 	mission.setDescription("nouvelle mission");
 	mission.setName("mission A");
 	assertNotNull("name mustn't be null", mission.getName());
@@ -47,7 +47,7 @@ public void ajouterMissionTest(){
 		
 }
 @Test
-public void affecterMissionADepartementTest(){
+public void testaffecterMissionADepartement(){
 	
 	
 
