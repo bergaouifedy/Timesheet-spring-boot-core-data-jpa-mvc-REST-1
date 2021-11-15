@@ -14,9 +14,10 @@ import tn.esprit.spring.entities.Role;
 import tn.esprit.spring.repository.ContratRepository;
 import tn.esprit.spring.repository.EmployeRepository;
 import tn.esprit.spring.services.IEmployeService;
-import tn.esprit.spring.utils.BaseJUnit49TestCase;
 
-public class EmployeServiceImplTest extends BaseJUnit49TestCase {
+
+
+public class EmployeServiceImplTest  {
 	private static final Logger LOG = LogManager.getLogger(EmployeServiceImplTest.class);
 	
 	Employe e = new Employe();
@@ -31,42 +32,11 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 	private Employe employe;
 	private Contrat contrat;
 
-	@Override
-	public void setUp() throws Exception {
-		super.setUp();
-		this.employe = new Employe();
-		this.employe.setId(getIdHelper().createRandomInt());
-		this.employe.setPrenom("tarek");
-		this.employe.setNom("chehidi");
-		this.employe.setEmail("tarek.chehidi@esprit.tn");
-		this.employe.setActif(true);
-		this.employe.setRole(Role.INGENIEUR);
-		this.contrat = new Contrat();
-		//this.contrat.setReference(getIdHelper().createRandomInt());
 
-	}
-
-	@Test
-	public void tests() {
-	
-		//testAjouterContrat();
-		//testAffecterContratAEmploye();
-       // testDeleteContratByRef();
-	}
-	
 
 	
 	
-		public void testAjouterContrat() {
-		LOG.info("Start Method testAjouterContrat");
-		LOG.info(this.contrat);
-		this.contrat.setEmploye(this.employe);
-
-		this.contrat.setReference(iempServ.ajouterContrat(this.contrat));
-		Assert.assertTrue(contrat.getReference() > 0);
-		LOG.info("End Method testAjouterContrat");
-
-	}
+		@Test
 		public void testAjouterEmploye () {
 
 			e.setPrenom("xxx");
@@ -77,6 +47,7 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 			
 			iempServ.ajouterEmploye( e);
 		}
+		@Test
 	public void testAffecterContratAEmploye() {
 
 		LOG.info("Start Method affecterContratAEmploye");
@@ -91,17 +62,5 @@ public class EmployeServiceImplTest extends BaseJUnit49TestCase {
 	}
 	
 
-		public void testDeleteContratByRef() {
-		LOG.info("Start Method deleteContratByRef");
-		LOG.info(this.contrat);
-
-		iempServ.deleteContratById(this.contrat.getReference());
-		Optional<Contrat> cont = contratRepoistory.findById(this.contrat.getReference());
-//		System.out.println(cont.get().getReference());
-//		Assert.assertTrue(cont.isPresent());
-
-		LOG.info("End deleteContratByRef");
-
-	}
 		//mala 
 }
