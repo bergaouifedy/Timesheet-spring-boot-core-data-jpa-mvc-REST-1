@@ -53,16 +53,8 @@ public class DepartementTest extends BaseJUnit49TestCase {
 
 	}
 	
-	@Test
-	public void getAllDepartementsNamesByEntrepriseTest() {
-		LOG.info("-------------------- Start Method getAllDepartementsNamesByEntreprise -------------------------");
-		List<String>depNames = ientrepriseservice.getAllDepartementsNamesByEntreprise(entreprise.getId());
-		LOG.info(depNames);
-		Assert.assertTrue(!depNames.isEmpty());
-		LOG.info("--------------------- End Method getAllDepartementsNamesByEntreprise ---------------------------");
-	}
-
-	@Test
+	
+	/*@Test
 	public void affecterDepartementAEntrepriseTest() {
 		LOG.info("------------------- Start Method affecter Departement An Entreprise ---------------------------");
 		LOG.info(this.departement);
@@ -74,7 +66,7 @@ public class DepartementTest extends BaseJUnit49TestCase {
 		Assert.assertFalse(ientrepriseservice.getAllDepartementsNamesByEntreprise(entreprise.getId()).isEmpty());
 		LOG.info("The Method affecterDepartementAEntreprise has been finished successfuly");		
 		LOG.info("End Method affecterDepartementAEntreprise");
-	}
+	} */
 	
 	@Test
 	public void ajouterDepartementTest() {
